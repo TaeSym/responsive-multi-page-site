@@ -96,6 +96,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
+  color: #e2e3ed;
 }
 
 ul,
@@ -129,9 +130,13 @@ p {
   line-height: 1.125em;
 }
 
-img {}
+img {
+  width: 100%;
+}
 
-figure {}
+figure {
+  margin: 0;
+}
 
 address {
   font-style: normal;
@@ -164,6 +169,10 @@ header.content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
 }
 
 .header-division {
@@ -233,6 +242,9 @@ footer .copyright {
 .hero-area {
   display: flex;
   justify-content: center;
+  background: url(../img/unplugged-retreat.jpg) center no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
 }
 
 .hero-area h1 {
@@ -277,6 +289,8 @@ input[type=button] {
 .features {
   display: flex;
   justify-content: center;
+  background: url('../img/unplugged-retreat-features.jpg') center no-repeat;
+  background-size: cover;
 }
 
 .features h2 {
@@ -497,6 +511,10 @@ input[type=button] {
 
   /* Hero Styles */
 
+  .hero-area {
+    min-height: 600px;
+  }
+  
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -545,6 +563,7 @@ input[type=button] {
     width: 85%;
   }
 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
