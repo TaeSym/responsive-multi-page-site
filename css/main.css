@@ -155,14 +155,6 @@ header {
   background-color: #202322;
 }
 
-header,
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
 header.content-wrapper {
   display: flex;
   justify-content: center;
